@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
-  def foo; end
-  def bar; end
+  def any_page
+    render params[:pagename]
+  end
 end

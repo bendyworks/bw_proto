@@ -1,4 +1,3 @@
 BwProto::Application.routes.draw do
-  get '/foo', to: 'pages#foo'
-  get '/bar', to: 'pages#bar'
+  get '/*pagename', to: 'pages#any_page'
 end
