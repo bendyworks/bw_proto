@@ -1,0 +1,114 @@
+.intro-community {
+	padding: 60px 30px;
+	background-image: url('http://lorempixel.com/g/1920/400/abstract');
+	background-position: center; 
+	background-repeat: repeat;
+	width: 100%;
+	height: 400px;
+	background-color: #ccc;
+	.intro-content {
+		background-color: #000;
+
+		.intro-title {
+			font-size: 45px;
+			text-transform: uppercase;
+			color: white !important;
+			text-shadow: 0 0 0.2em #000;
+		}
+		.sub-title {
+			font-size: 24px;
+			color: white !important;
+			text-shadow: 0 0 0.2em #000;
+		}
+	}
+}
+.current-events {
+	background-color: #fff;
+	padding: 20px;
+	a.date-content {
+		display: block;
+		position: relative;
+		h2 {
+			font-size: 100px;
+			margin: 0;
+			color: black;
+			&:hover {
+			color: red;
+			}
+		}
+	}
+}
+
+.blog-oss-content {
+	background-color: #eee; 
+	padding: 75px 10px;
+	.community-blog, .community-oss {
+		padding: 0 20px;
+	}
+	.community-blog-list, .community-oss-list {
+		padding: 0 20px;
+		h3 {
+			margin: 0;
+			font-size: 20px;
+			padding: 3px 0 8px 0;
+		}
+		h4 {
+			font-size: 16px;
+			color: #808080 !important;
+		}
+		li {
+			padding: 15px 0;
+		}
+	}
+}
+
+
+
+.speaking-meetup-content {
+	background-color: #ddd; 
+	padding: 75px 0;
+}
+
+.press-content {
+	padding: 75px 0;
+	.press {
+		padding: 0 100px;
+		.press-link {
+			h3 {
+				font-size: 20px;
+			}
+			h4 {
+				margin-bottom: 35px;
+				color: #808080 !important;
+				font-weight: normal;
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+.community-blog-title, .oss-title, .speaking-title, .meetup-title, .press-title {
+	text-transform: uppercase;
+	margin: 10px 0;
+	  
+	h2 {
+		font-size: 30px !important;
+	}
+}
+
+.community-speaking-list {
+	padding: 0 20px;
+	.speaking-list-item {
+		padding: 10px 0;
+		h3 {
+			margin: 10px 0;
+		}
+		h4 {
+			margin: 0;
+			color: #808080;
+			font-weight: normal;
+		}
+	}
+}
+
+

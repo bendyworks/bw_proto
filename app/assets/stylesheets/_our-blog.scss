@@ -1,0 +1,60 @@
+header {
+	background-color: #fff !important;
+	nav {
+		ul {
+			display: inline;
+			li {
+				float: left;
+				padding: 0 10px;
+				list-style-type: none; 
+				a {
+					h3{
+						font-size: 14px;
+					}
+
+				}
+			}
+		}
+	}
+}
+
+
+.blog-intro {
+	margin-bottom: 80px;
+	margin-top: 150px;
+	text-align: center;
+
+	img {
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
+	h2 {
+		text-align: left;
+	}
+	h4 {
+		margin-bottom: 40px;
+		text-align: left;
+	}
+	button {
+		margin-bottom: 20px;
+	}
+}
+
+.previous, .next {
+	text-transform: uppercase;
+	color: #aaa;
+	padding: 10px 0 50px 0;
+}
+
+.next {
+	text-align: right;
+	&:after {
+		content:" >>";
+	}
+}
+
+.previous {
+	&:before {
+		content: "<< ";
+	}
+}

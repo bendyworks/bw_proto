@@ -1,0 +1,45 @@
+.work-box {
+	padding: 100px 0;
+}
+
+.work-button {
+	margin-top: 20px;
+}
+
+.two {
+	background-color: #888;
+	img {
+		margin: 0 0 -100px 0;
+	}
+}
+
+.three {
+	background-color: #eee;
+	img {
+		margin: 0 0 -100px 0;
+	}
+}
+
+.client-list {
+	padding: 100px 0;
+	background-color: #333; 
+	.client {
+		.client-title {
+			text-transform: uppercase;
+			font-weight: bold;
+			padding: 50px 0;
+			font-size: 24px;
+			color: white; 
+		}
+		ul {
+			display: block;
+			li {
+				list-style: none;
+				display: inline-block;
+				
+				a {
+				}
+			}
+		}
+	}
+}

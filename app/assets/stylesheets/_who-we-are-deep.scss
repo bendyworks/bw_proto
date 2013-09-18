@@ -1,0 +1,41 @@
+.individual-person {
+	padding: 40px 0;
+}
+
+.person-extra {
+	background-color: #eee;
+	padding: 100px 0; 
+}
+
+.intro-who-we-are-deep {
+	padding: 60px 30px;
+	background-image: url('http://lorempixel.com/g/1920/400/abstract');
+	background-position: center; 
+	background-repeat: repeat;
+	width: 100%;
+	height: 400px;
+	background-color: #ccc;
+	.intro-content {
+		background-color: #000;
+
+		.intro-title {
+			font-size: 45px;
+			text-transform: uppercase;
+			color: white !important;
+			text-shadow: 0 0 0.2em #000;
+		}
+		.sub-title {
+			font-size: 24px;
+			color: white !important;
+			text-shadow: 0 0 0.2em #000;
+		}
+	}
+}
+
+.social-media {
+	margin-top: 20px;
+	list-style-type: none;
+	li {
+		padding: 5px 0;
+	}
+}
