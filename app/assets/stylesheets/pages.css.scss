@@ -32,3 +32,17 @@ h2.intro-title {
   /*make text white, override everythig else */
   color: white !important;
 }
+
+.padder {
+  /* wrapper class to pad for fixed header */
+  margin-top: 100px;
+}
+
+.light-gray {
+ /* give it a light gray bg */
+ background-color: #d7d7d7;
+}
+/* pads full width rows */
+.pad {
+  padding: 50px 0;
+}
