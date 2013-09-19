@@ -42,7 +42,31 @@ h2.intro-title {
  /* give it a light gray bg */
  background-color: #d7d7d7;
 }
+
+.bg-white {
+/* make bg color white */
+background-color: white;
+}
+
+/*make sure it's on top*/
+.top {
+  z-index: 1000;
+  position: relative;
+}
 /* pads full width rows */
 .pad {
   padding: 50px 0;
+}
+
+.pad-more {
+  padding: 150px 0;
+}
+.hero {
+  width: 100%;
+  background-color: #565656;
+  padding: 100px 0;
+}
+
+.case_study_single_hero {
+  padding: 250px 0;
 }
