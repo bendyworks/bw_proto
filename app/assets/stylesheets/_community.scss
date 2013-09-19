@@ -1,7 +1,7 @@
 .intro-community {
 	padding: 60px 30px;
 	background-image: url('http://lorempixel.com/g/1920/400/abstract');
-	background-position: center; 
+	background-position: center;
 	background-repeat: repeat;
 	width: 100%;
 	height: 400px;
@@ -40,10 +40,14 @@
 }
 
 .blog-oss-content {
-	background-color: #eee; 
+	background-color: #eee;
 	padding: 75px 10px;
+	.oss-title {
+		text-align: center;
+	}
 	.community-blog, .community-oss {
 		padding: 0 20px;
+		text-align: center;
 	}
 	.community-blog-list, .community-oss-list {
 		padding: 0 20px;
@@ -62,10 +66,13 @@
 	}
 }
 
-
+.meetup-content {
+	padding-top: 2em;
+	text-align: center;
+}
 
 .speaking-meetup-content {
-	background-color: #ddd; 
+	background-color: #ddd;
 	padding: 75px 0;
 }
 
@@ -90,7 +97,7 @@
 .community-blog-title, .oss-title, .speaking-title, .meetup-title, .press-title {
 	text-transform: uppercase;
 	margin: 10px 0;
-	  
+
 	h2 {
 		font-size: 30px !important;
 	}
