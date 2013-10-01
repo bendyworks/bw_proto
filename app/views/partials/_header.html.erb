@@ -1,11 +1,13 @@
 <header class="main">
-  <div class="row">
+<div class="full-width bg-white">
+ <div class="row">
+
     <div class="large-3 columns nav-logo">
       <a href="/">
         <h1>Bendyworks</h1>
       </a>
     </div>
-      <nav class="large-9 columns">
+  <nav class="large-9 columns">
         <ul>
           <li class="name">
             <a href="/our_work">Our Work</a>
@@ -20,10 +22,21 @@
             <a href="/our_blog">Our Blog</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a class="nav-contact" href="#" id="contact">Contact</a>
           </li>
         </ul>
       </nav>
+        <a href="#" class="mobile-nav">NAV</a>
+
   </div>
+</div>
+<div class="full-width contact">
+    <div class="row">
+      <div class="large-12 columns">
+      <%= render 'partials/contact' %>
+      </div>
+    </div>
+  </div>
+
 </header>
 

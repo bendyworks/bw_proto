@@ -1,0 +1,17 @@
+<h1 class="blog-title">Bwoken 2 Beta Released</h1>
+
+<p>In response to a <a href="https://github.com/bendyworks/bwoken/pull/21">great discussion</a> in the bwoken issues forum, I'm happy to announce the first beta of bwoken version 2! The major change, which justified the major version bump, is that bwoken is no longer invoked with <code>rake</code> but instead with <code>bwoken</code>. So, now you can do fun things like this!</p>
+
+<pre>$ bwoken test --focus some_test --family ipad --simulator
+</pre>
+
+
+<p>This will run one particular test, only on the ipad, and specifically in the simulator even if there's an iDevice connected. To try out the new beta, make the line in your Gemfile look like this:</p>
+
+<pre>gem 'bwoken', '2.0.0.beta.1'
+</pre>
+
+
+<p>Then, just run <code>bundle update bwoken</code> and you're all set! Please be generous with <a href="https://github.com/bendyworks/bwoken/issues/new">posting new issues</a> you encounter.</p>
+
+</div>

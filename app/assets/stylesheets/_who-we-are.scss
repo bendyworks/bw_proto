@@ -1,24 +1,24 @@
 .people {
 	margin-top: 50px;
 	.people_picture {
-		-webkit-border-radius: 150px;
-		border-radius: 150px;
+		width: 300px;
+		height: 300px;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+	    overflow: hidden;
 	}
 	.people_image {
 		display: block;
-		margin: 25px auto 0 auto;
-		-webkit-border-radius: 150px;
-		border-radius: 150px;
-
 	}
 	.image_overlay {
 		display: none;
 		position: absolute;
-		top: 0px;
+		top: 60px;
+		padding-top: 48%;
 		z-index: 100000000;
 		background-color: rgba(47, 47, 47, .8);
-		width: 250px;
-		height: 250px;
+		width: 300px;
+		height: 300px;
 		overflow: hidden;
 		color: white;
 		-webkit-border-radius: 150px;

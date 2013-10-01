@@ -23,8 +23,15 @@
 	}
 }
 
+#values {
+	display: none;
+}
+
 .our-values {
 	padding: 75px 0;
+	.right img {
+		float: right;
+	}
 	.how-we-work-intro {
 		text-align: center;
 	}

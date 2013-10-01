@@ -1,39 +1,38 @@
 .intro {
-	padding: 60px 30px;
-	background-image: url('http://lorempixel.com/g/1920/600/abstract');
+	padding: 300px 30px;
+	background-color: #1E1E1E;
 	background-position: center;
 	background-repeat: repeat;
 	width: 100%;
-	height: 600px;
-	background-color: #ccc;
+	height: 1200px;
+	h1 {
+		color: white;
+	}
 	&.our-work {
 		padding: 200px 0 0 0;
 	}
 	.intro-content {
-		background-color: #000;
-
 		.intro-title {
 			font-size: 45px;
 			text-transform: uppercase;
 			color: white !important;
-			text-shadow: 0 0 0.2em #000;
 		}
 		.sub-title {
 			font-size: 24px;
 			color: white !important;
-			text-shadow: 0 0 0.2em #000;
 		}
 	}
 }
+
 
 .home-box-content {
 	padding: 100px;
 }
 
 .info-box {
-	margin-top: 600px;
+	margin-top: 900px;
 	z-index: 10;
-	background-color: cornsilk;
+	background-color: white;
 	position: relative;
 	h2 {
 		font-size: 36px;

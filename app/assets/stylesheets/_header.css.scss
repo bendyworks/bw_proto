@@ -9,6 +9,19 @@ header.main {
   .nav-logo {
     padding-top: 5px;
   }
+  .mobile-nav {
+    display: none;
+    @media all and (max-width: 500px) {
+      display: block;
+      float: right;
+      position: absolute;
+      top: 20px;
+      right: 10px;
+      background-color: #565656;
+      color: white !important;
+      padding: 15px;
+    }
+  }
   ul {
     float: right;
     li {
@@ -20,6 +33,28 @@ header.main {
         display: inline-block;
         line-height: 100px;
         font-size: 18px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 500px) {
+  header.main {
+    ul {
+      display: none;
+      float: right;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      background-color: black;
+      color: white !important;
+      padding: 15px;
+      width: 300px;
+      z-index: 20000;
+      li a {
+        clear: both;
+        display: block;
+        width: 300px;
       }
     }
   }
