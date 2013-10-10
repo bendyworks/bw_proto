@@ -1,0 +1,21 @@
+<%= render 'partials/header' %>
+
+<div class="padder">
+  <div class="row">
+    <div>
+
+
+<% @content["posts"].each do |post| %>
+    <h1><a href="/<%= post['slug'] %>"><%= post["title"].html_safe %></a></h1>
+    <div class="entry"><%= post["content"].html_safe %></div>
+<% end %>
+
+
+
+<div class="pager">
+</div>
+    </div>
+  </div>
+</div>
+
+<%= render 'partials/footer' %>
